@@ -1,18 +1,16 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo do corpo */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     text-align: center;
 }
 
-/* Estilo do cabeçalho */
 header {
     background: #053b75;
     color: #fafafa;
@@ -20,9 +18,9 @@ header {
 }
 
 #minhaimg{
-   width: 80px;
+   width: 1000px;
    height:auto;
-   align-items: end;
+   
 }
 
 
@@ -45,7 +43,6 @@ nav ul li a:hover {
    text-decoration: underline;
 }
 
-/* Estilo das seções */
 section {
    padding: 20px;
    margin: 20px auto;
@@ -57,14 +54,14 @@ section {
 
 #Descricao {
    display: flex;
-   align-items: center; /* Alinha verticalmente */
+   align-items: center;
 }
 
 .foto-sobre-mim {
-   margin-right: 10px; /* Espaço entre a imagem e o texto */
+  height: max-content;
+  width: max-content;
 }
 
-/* Estilo das imagens */
 .foto-header,
 .foto-sobre-mim,
 .foto-projeto {
@@ -72,7 +69,6 @@ section {
    height: auto;
 }
 
-/* Estilo do formulário de contato */
 form {
    display: flex;
    flex-direction: column;
@@ -95,13 +91,24 @@ form textarea {
 form button {
    margin-top: 10px;
    padding: 10px;
-   background-color: #2229; /* Cor do botão */
-   color: white; /* Texto branco */
+   background-color: #2229; 
+   color: white; 
 }
 
-/* Estilo das redes sociais */
 .redes-sociais {
-   margin-top: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center; 
+}
+
+.redes-sociais a {
+   margin: 0 10px; 
+}
+
+.redes-sociais img {
+   width: 64px; 
+   height: auto;
 }
 
 #Rodape{
@@ -110,7 +117,6 @@ form button {
   background-color: #053b75;
 }
 
-/* Estilo do rodapé */
 footer {
    text-align: center;
    width: 1000;
