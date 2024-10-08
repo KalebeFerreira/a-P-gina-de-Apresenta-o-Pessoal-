@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #053b75;
+    color: #fafafa;
+    
+}
+
+#minhaimg{
+   width: 80px;
+   height:auto;
+   align-items: end;
+}
+
+
+nav ul {
+   list-style: none;
+   padding: 30px;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 15px;
+}
+
+nav ul li a {
+   color: #fdfdff;
+   text-decoration: none;
+}
+
+nav ul li a:hover {
+   text-decoration: underline;
+}
+
+/* Estilo das seções */
+section {
+   padding: 20px;
+   margin: 20px auto;
+   max-width: 800px;
+   background-color: rgba(49, 44, 88, 0.6);
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#Descricao {
+   display: flex;
+   align-items: center; /* Alinha verticalmente */
+}
+
+.foto-sobre-mim {
+   margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilo das imagens */
+.foto-header,
+.foto-sobre-mim,
+.foto-projeto {
+   max-width: 40%;
+   height: auto;
+}
+
+/* Estilo do formulário de contato */
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+#cont{
+   height: 720px;
+}
+
+form label {
+   margin-top: 10px;
+}
+
+form input,
+form textarea {
+   padding: 10px;
+   margin-top: 5px;
+}
+
+form button {
+   margin-top: 10px;
+   padding: 10px;
+   background-color: #2229; /* Cor do botão */
+   color: white; /* Texto branco */
+}
+
+/* Estilo das redes sociais */
+.redes-sociais {
+   margin-top: 20px;
+}
+
+#Rodape{
+   width: 1000;
+   height: 100px;
+  background-color: #053b75;
+}
+
+/* Estilo do rodapé */
+footer {
+   text-align: center;
+   width: 1000;
+   height: 80px;
+   color: #fdfdff;
+   
+}
+
